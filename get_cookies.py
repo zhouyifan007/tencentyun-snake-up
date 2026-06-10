@@ -10,7 +10,7 @@ def auto_rush_buy():
 
         print("请扫描二维码登录...")
 
-        page.wait_for_url("https://cloud.tencent.com/act/pro/featured-202604?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=9d471e943d2d142808a4771f328779e6&page=spring2026&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025", timeout=0)
+        page.wait_for_url("https://cloud.tencent.com/act/pro/warmup-202606?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=9d471e943d2d142808a4771f328779e6&page=featured-202604&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025", timeout=0)
         page.wait_for_timeout(2000) 
 
         print("登录成功！")
