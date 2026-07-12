@@ -110,6 +110,9 @@ A: 确认 `x-csrf-token` 是否为最新值，检查 Cookie 是否有效
 **Q: 抢购脚本运行正常但无响应**
 A: 检查网络连接，确认秒杀时间是否正确设置
 
+**Q: 无法正常获取cookie**
+A: 是由于官方的网页链接每个月会更换一次，导致原脚本链接定位错误；需要修改get_cookies.py代码中的这个部分 page.wait_for_url("https://cloud.tencent.com/act/pro/featured-202607?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=9d471e943d2d142808a4771f328779e6&page=warmup-202606&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025", timeout=0),只需复制打开脚本浏览器中的地址栏链接替换一下，再重新运行脚本就可以正常获取到cookie
+
 ## 文件结构
 
 ```

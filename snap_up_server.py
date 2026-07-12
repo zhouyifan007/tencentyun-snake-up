@@ -33,10 +33,10 @@ check_data = {
 
 
 headers = {
-    "x-csrf-token": str(1484754848),  # 需从浏览器实时获取
+    "x-csrf-token": str(1098793468),  # 需从浏览器实时获取
     "Content-Type": "application/json",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
-    "referer": "https://cloud.tencent.com/act/pro/featured-202604?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=6b370ba9f89c1d21e93a6225d46c8044&page=spring2026&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025"
+    "referer": "https://cloud.tencent.com/act/pro/featured-202607?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=9d471e943d2d142808a4771f328779e6&page=warmup-202606&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025"
 }
 
 # =================== 检查是否可抢购 =================== #
@@ -117,7 +117,7 @@ def buy_now(region_id):
             "fromChannel": "",
             "fromSales": "",
             "isAgentClient": False,
-            "fromUrl": "https://cloud.tencent.com/act/pro/featured-202604?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=6b370ba9f89c1d21e93a6225d46c8044&page=spring2026&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025"
+            "fromUrl": "https://cloud.tencent.com/act/pro/featured-202607?fromSource=gwzcw.10216579.10216579.10216579&utm_medium=cpc&utm_id=gwzcw.10216579.10216579.10216579&msclkid=9d471e943d2d142808a4771f328779e6&page=warmup-202606&s_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025"
         },
         
         "business": {
@@ -126,7 +126,7 @@ def buy_now(region_id):
         },
         "goods": [
             {
-                "act_id": 1784747698901873,
+                "act_id": 1897632168296710,
                 "type": "bundle_budget_mc_lg4_01",
                 "goods_param": {
                     "BlueprintId": "LINUX_UNIX",
